@@ -1,0 +1,23 @@
+* cue-gh-workflows
+
+  GitHub workflows in [[https://cuelang.org][CUE]].
+
+** Features
+
+  - reusable
+  - DRY
+  - fun
+
+** Use
+
+   #+begin_src shell
+     # Vendor the GitHub schema.
+     cue vendorgithubschema .:ci_tool
+
+     # Generate a new workflow.
+     cue new -t myworkflow # TODO
+   #+end_src
+
+** References
+
+   - [[https://github.com/cuelang/cue/tree/master/internal/ci][cuelang/cue/internal/ci]]
