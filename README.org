@@ -4,16 +4,13 @@
 
 ** Features
 
-  - reusable
+  - reusable workflow templates
   - DRY
-  - fun
+  - fun!
 
 ** Use
 
    #+begin_src shell
-     # Vendor the GitHub schema.
-     cue vendorgithubschema .:ci_tool
-
      # Generate a new workflow.
      cue new -t myworkflow # TODO
    #+end_src
